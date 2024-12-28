@@ -1,0 +1,174 @@
+Dependencies for Project 'stm32f103_drivers', Target 'Application': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x66E43B68)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MMD)
+I (main.h)(0x66E5327C)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (.\main.h)(0x66E5327C)()
+F (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)()
+F (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)()
+F (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)()
+F (..\..\CortexMx\Drivers\Inc\CortexMx_RTOS.h)(0x66E2517F)()
+F (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)()
+F (..\Drivers\include\stm32f103xx.h)(0x67014AE3)()
+F (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)()
+F (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)()
+F (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)()
+F (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)()
+F (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)()
+F (..\Drivers\include\stm32f103xx_adc_driver.h)(0x67014C10)()
+F (..\Drivers\include\stm32f103xx_timer_driver.h)(0x66E53784)()
+F (..\Drivers\include\stm32f103xx_flash_driver.h)(0x66E2517F)()
+F (..\Drivers\include\stm32f103xx_dma_driver.h)(0x66E2517F)()
+F (..\Drivers\include\stm32f103xx_can_driver.h)(0x66E43887)()
+F (..\..\CortexMx\Drivers\Src\CortexMx.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/cortexmx.o -MMD)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+F (..\..\CortexMx\Drivers\Src\CortexMx_NVIC.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/cortexmx_nvic.o -MMD)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+F (..\..\CortexMx\Drivers\Src\CortexMx_RTOS.c)(0x66E43B5A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/cortexmx_rtos.o -MMD)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_RTOS.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+F (..\..\CortexMx\Drivers\Src\CortexMx_SysTick_Timer.c)(0x66E403CC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/cortexmx_systick_timer.o -MMD)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+F (..\Drivers\stm32f103xx_rcc_driver.c)(0x66E3FC74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_rcc_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (..\Drivers\stm32f103xx_gpio_driver.c)(0x66E3E423)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_gpio_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (..\Drivers\stm32f103xx_i2c_driver.c)(0x66E3AD58)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_i2c_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (..\Drivers\stm32f103xx_uart_driver.c)(0x67049A19)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_uart_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+F (..\Drivers\stm32f103xx_spi_driver.c)(0x66E2B551)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_spi_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (..\Drivers\stm32f103xx_adc_driver.c)(0x67014C90)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_adc_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_adc_driver.h)(0x67014C10)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (..\Drivers\stm32f103xx_timer_driver.c)(0x66E438A2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_timer_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_timer_driver.h)(0x66E53784)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (..\Drivers\stm32f103xx_flash_driver.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_flash_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_flash_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (..\Drivers\stm32f103xx_dma_driver.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_dma_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_dma_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (..\Drivers\stm32f103xx_can_driver.c)(0x66E4389D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f103xx_can_driver.o -MMD)
+I (..\Drivers\include\stm32f103xx_can_driver.h)(0x66E43887)
+I (..\Drivers\include\stm32f103xx.h)(0x67014AE3)
+I (..\..\CortexMx\Drivers\Inc\CortexMx.h)(0x66E43B0D)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_BitBand.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_NVIC.h)(0x66E2517F)
+I (..\..\CortexMx\Drivers\Inc\CortexMx_SysTick_Timer.h)(0x67049A69)
+I (..\Drivers\include\stm32f103xx_gpio_driver.h)(0x66E3E41D)
+I (..\Drivers\include\stm32f103xx_rcc_driver.h)(0x66E594B3)
+I (..\Drivers\include\stm32f103xx_spi_driver.h)(0x66E45550)
+I (..\Drivers\include\stm32f103xx_i2c_driver.h)(0x66E2517F)
+I (..\Drivers\include\stm32f103xx_uart_driver.h)(0x66E3B112)
+F (RTE/Device/STM32F103C8/RTE_Device.h)(0x66E2517F)()
+F (RTE/Device/STM32F103C8/startup_stm32f10x_md.s)(0x66E2517F)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE/Device/STM32F103C8/system_stm32f10x.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/include -I ../../CortexMx/Inc -I ../Drivers/include -I ../../CortexMx/Drivers/Inc -I ../../../Divece/rfid_rc522-I./RTE/Device/STM32F103C8-I./RTE/_Application-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MMD)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Application\RTE_Components.h)(0x66E25DB8)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)

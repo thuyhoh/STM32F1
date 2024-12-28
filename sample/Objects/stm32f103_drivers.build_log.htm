@@ -1,0 +1,367 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Trong Thuy, none, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.40.0.3
+Toolchain Path:  C:\Users\Asus\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DSTM32F103C8.DLL
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\Microcontroller\Stm32\stm32f10x\sample\stm32f103_drivers.uvprojx
+Project File Date:  09/26/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\Asus\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Application'
+../Drivers/stm32f103xx_i2c_driver.c(1): warning: In file included from...
+../Drivers/include\stm32f103xx_i2c_driver.h(4): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+6 warnings generated.
+compiling stm32f103xx_i2c_driver.c...
+compiling CortexMx_RTOS.c...
+../Drivers/stm32f103xx_adc_driver.c(66): warning: unused parameter 'pADCHandle' [-Wunused-parameter]
+   66 | void ADC_Init(ADC_Handle_t *pADCHandle)
+      |                             ^
+../Drivers/stm32f103xx_adc_driver.c(87): warning: unused parameter 'pADCx' [-Wunused-parameter]
+   87 | void ADC_IRQConfig(ADC_RegDef_t *pADCx , uint8_t Priority, uint8_t ENorDI)
+      |                                  ^
+../Drivers/stm32f103xx_adc_driver.c(87): warning: unused parameter 'Priority' [-Wunused-parameter]
+   87 | void ADC_IRQConfig(ADC_RegDef_t *pADCx , uint8_t Priority, uint8_t ENorDI)
+      |                                                  ^
+../Drivers/stm32f103xx_adc_driver.c(87): warning: unused parameter 'ENorDI' [-Wunused-parameter]
+   87 | void ADC_IRQConfig(ADC_RegDef_t *pADCx , uint8_t Priority, uint8_t ENorDI)
+      |                                                                    ^
+../Drivers/stm32f103xx_adc_driver.c(96): warning: unused parameter 'pADCHandle' [-Wunused-parameter]
+   96 | void ADC_IRQHandle(ADC_Handle_t *pADCHandle)
+      |                                  ^
+../Drivers/stm32f103xx_adc_driver.c(1): warning: In file included from...
+../Drivers/include\stm32f103xx_adc_driver.h(4): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+../Drivers/stm32f103xx_adc_driver.c(1): warning: In file included from...
+../Drivers/include\stm32f103xx_adc_driver.h(56): warning: unused function 'ADC_PinConfigure' [-Wunused-function]
+   56 | static void ADC_PinConfigure(ADC_Handle_t *pADCHandle);
+      |             ^~~~~~~~~~~~~~~~
+../Drivers/stm32f103xx_adc_driver.c(3): warning: unused function 'ADC_GetFlag' [-Wunused-function]
+    3 | static uint8_t ADC_GetFlag(ADC_RegDef_t *pADCx, uint8_t ADC_Flagname)
+      |                ^~~~~~~~~~~
+13 warnings generated.
+compiling stm32f103xx_adc_driver.c...
+compiling CortexMx_SysTick_Timer.c...
+compiling CortexMx_NVIC.c...
+../../CortexMx/Drivers/Src/CortexMx.c(6): warning: function declared 'noreturn' should not return [-Winvalid-noreturn]
+    6 | }
+      | ^
+1 warning generated.
+compiling CortexMx.c...
+../Drivers/stm32f103xx_uart_driver.c(177): warning: unused parameter 'pUSARTx' [-Wunused-parameter]
+  177 | void USART_DeInit(USART_RegDef_t *pUSARTx)
+      |                                   ^
+../Drivers/stm32f103xx_uart_driver.c(344): warning: expression result unused [-Wunused-value]
+  344 |                                 (uint16_t*) pRxBuffer++;
+      |                                 ^           ~~~~~~~~~~~
+../Drivers/stm32f103xx_uart_driver.c(345): warning: expression result unused [-Wunused-value]
+  345 |                                 (uint16_t*) pRxBuffer++;
+      |                                 ^           ~~~~~~~~~~~
+../Drivers/stm32f103xx_uart_driver.c(552): warning: incompatible pointer types assigning to 'uint8_t *' (aka 'unsigned char *') from 'uint16_t *' (aka 'unsigned short *') [-Wincompatible-pointer-types]
+  552 |                                         pdata = (uint16_t*) pUSARTHandle->pTxBuffer;
+      |                                               ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/stm32f103xx_uart_driver.c(490): warning: variable 'temp3' set but not used [-Wunused-but-set-variable]
+  490 |         uint32_t temp1 , temp2, temp3;
+      |                                 ^
+../Drivers/stm32f103xx_uart_driver.c(991): warning: unused parameter 'pUSARTHandle' [-Wunused-parameter]
+  991 | _weak void USART_ApplicationEventCallback(USART_Handle_t *pUSARTHandle,uint8_t AppEv)
+      |                                                           ^
+../Drivers/stm32f103xx_uart_driver.c(991): warning: unused parameter 'AppEv' [-Wunused-parameter]
+  991 | _weak void USART_ApplicationEventCallback(USART_Handle_t *pUSARTHandle,uint8_t AppEv)
+      |                                                                                ^
+../Drivers/stm32f103xx_uart_driver.c(7): warning: In file included from...
+../Drivers/include\stm32f103xx_uart_driver.h(4): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+13 warnings generated.
+compiling stm32f103xx_uart_driver.c...
+../Drivers/stm32f103xx_rcc_driver.c(9): warning: In file included from...
+../Drivers/include\stm32f103xx_rcc_driver.h(4): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+6 warnings generated.
+compiling stm32f103xx_rcc_driver.c...
+../Drivers/stm32f103xx_gpio_driver.c(1): warning: In file included from...
+../Drivers/include\stm32f103xx_gpio_driver.h(5): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+6 warnings generated.
+compiling stm32f103xx_gpio_driver.c...
+../Drivers/stm32f103xx_spi_driver.c(41): warning: unused parameter 'pSPIx' [-Wunused-parameter]
+   41 | void SPI_Deinit(SPI_RegDef_t *pSPIx)
+      |                               ^
+../Drivers/stm32f103xx_spi_driver.c(65): warning: expression result unused [-Wunused-value]
+   65 |                         (uint16_t *)pTxBuffer++;
+      |                         ^           ~~~~~~~~~~~
+../Drivers/stm32f103xx_spi_driver.c(378): warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+  378 |         uint32_t temp;
+      |                  ^
+../Drivers/stm32f103xx_spi_driver.c(385): warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+  385 |         uint32_t temp;
+      |                  ^
+../Drivers/stm32f103xx_spi_driver.c(415): warning: unused parameter 'pSPIHandle' [-Wunused-parameter]
+  415 | _weak void SPI_ApplicationEventCallback(SPI_Handle_t *pSPIHandle, uint8_t AppEv)
+      |                                                       ^
+../Drivers/stm32f103xx_spi_driver.c(415): warning: unused parameter 'AppEv' [-Wunused-parameter]
+  415 | _weak void SPI_ApplicationEventCallback(SPI_Handle_t *pSPIHandle, uint8_t AppEv)
+      |                                                                           ^
+6 warnings generated.
+compiling stm32f103xx_spi_driver.c...
+main.c(1): warning: In file included from...
+.\main.h(5): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+6 warnings generated.
+compiling main.c...
+../Drivers/stm32f103xx_timer_driver.c(1): warning: In file included from...
+../Drivers/include\stm32f103xx_timer_driver.h(4): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+6 warnings generated.
+compiling stm32f103xx_timer_driver.c...
+../Drivers/stm32f103xx_flash_driver.c(1): warning: In file included from...
+../Drivers/include\stm32f103xx_flash_driver.h(4): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+6 warnings generated.
+compiling stm32f103xx_flash_driver.c...
+../Drivers/stm32f103xx_can_driver.c(1): warning: In file included from...
+../Drivers/include\stm32f103xx_can_driver.h(4): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+6 warnings generated.
+compiling stm32f103xx_can_driver.c...
+../Drivers/stm32f103xx_dma_driver.c(1): warning: In file included from...
+../Drivers/include\stm32f103xx_dma_driver.h(4): warning: In file included from...
+../Drivers/include\stm32f103xx.h(216): warning: In file included from...
+../Drivers/include\stm32f103xx_spi_driver.h(140): warning: unused function 'SPI_PeriClockControl' [-Wunused-function]
+  140 | static void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t ENorDi);
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(147): warning: unused function 'SPI_GetFlag' [-Wunused-function]
+  147 | static uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx,uint32_t SPI_Flag);
+      |                ^~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(155): warning: unused function 'SPI_TXEIRQ_Handle' [-Wunused-function]
+  155 | static void SPI_TXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(156): warning: unused function 'SPI_RXEIRQ_Handle' [-Wunused-function]
+  156 | static void SPI_RXEIRQ_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(157): warning: unused function 'SPI_OVR_Handle' [-Wunused-function]
+  157 | static void SPI_OVR_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~
+../Drivers/include\stm32f103xx_spi_driver.h(158): warning: unused function 'SPI_MODF_Handle' [-Wunused-function]
+  158 | static void SPI_MODF_Handle(SPI_Handle_t *pSPIHandle);
+      |             ^~~~~~~~~~~~~~~
+6 warnings generated.
+compiling stm32f103xx_dma_driver.c...
+linking...
+Program Size: Code=6784 RO-data=268 RW-data=56 ZI-data=1632  
+".\Objects\stm32f103_drivers.axf" - 0 Error(s), 81 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103C8
+  ./RTE/_Application
+  C:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Keil::Device:Startup@1.0.0
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/system_stm32f10x.c
+      Include file:  RTE_Driver/Config/RTE_Device.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

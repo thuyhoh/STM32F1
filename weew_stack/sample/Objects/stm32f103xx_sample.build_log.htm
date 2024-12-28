@@ -1,0 +1,188 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Trong Thuy, none, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.40.0.3
+Toolchain Path:  C:\Users\Asus\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\Microcontroller\Stm32\stm32f10x\weew_stack\sample\stm32f103xx_sample.uvprojx
+Project File Date:  10/03/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\Asus\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling Esp01.c...
+compiling systick_time.c...
+../Drivers/Src/i2c_drive.c(67): warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+   67 |         volatile int tmp;
+      |                      ^
+../Drivers/Src/i2c_drive.c(116): warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  116 |         volatile int tmp;
+      |                      ^
+../Drivers/Src/i2c_drive.c(172): warning: variable 'temp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  172 |         else if(i2c==2)
+      |                 ^~~~~~
+../Drivers/Src/i2c_drive.c(183): note: uninitialized use occurs here
+  183 |         return temp;
+      |                ^~~~
+../Drivers/Src/i2c_drive.c(172): note: remove the 'if' if its condition is always true
+  172 |         else if(i2c==2)
+      |              ^~~~~~~~~~
+  173 |         {
+../Drivers/Src/i2c_drive.c(160): note: initialize the variable 'temp' to silence this warning
+  160 |         char temp;
+      |                  ^
+      |                   = '\0'
+3 warnings generated.
+compiling i2c_drive.c...
+../Drivers/Src/SPI_drive.c(100): warning: variable 'rx_val' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  100 |         else if(spi==2)
+      |                 ^~~~~~
+../Drivers/Src/SPI_drive.c(106): note: uninitialized use occurs here
+  106 |         return rx_val;
+      |                ^~~~~~
+../Drivers/Src/SPI_drive.c(100): note: remove the 'if' if its condition is always true
+  100 |         else if(spi==2)
+      |              ^~~~~~~~~~
+  101 |         {
+../Drivers/Src/SPI_drive.c(94): note: initialize the variable 'rx_val' to silence this warning
+   94 |         char rx_val;
+      |                    ^
+      |                     = '\0'
+1 warning generated.
+compiling SPI_drive.c...
+compiling PCF8574.c...
+compiling timer_drive.c...
+../Drivers/Src/adc_drive.c(107): warning: unused parameter 'port' [-Wunused-parameter]
+  107 | int adc_rx(char adc, short port, short pin)
+      |                            ^
+../Drivers/Src/adc_drive.c(107): warning: unused parameter 'pin' [-Wunused-parameter]
+  107 | int adc_rx(char adc, short port, short pin)
+      |                                        ^
+../Drivers/Src/adc_drive.c(175): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  175 |                 if(adc_channels[i]<8)
+      |                                ^~
+../Drivers/Src/adc_drive.c(177): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  177 |                         init_GP(PA,adc_channels[i],IN,I_AN);
+      |                                                ^~
+../Drivers/Src/adc_drive.c(179): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  179 |                 else if(adc_channels[i]<10)
+      |                                     ^~
+../Drivers/Src/adc_drive.c(181): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  181 |                         init_GP(PB,adc_channels[i]-8,IN,I_AN);
+      |                                                ^~
+../Drivers/Src/adc_drive.c(183): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  183 |                 else if(adc_channels[i]<16)
+      |                                     ^~
+../Drivers/Src/adc_drive.c(185): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  185 |                         init_GP(PC,adc_channels[i]-10,IN,I_AN);
+      |                                                ^~
+../Drivers/Src/adc_drive.c(224): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  224 |                                 analog_rx[i] = temp_rx ;
+      |                                          ^~
+../Drivers/Src/adc_drive.c(229): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  229 |                                         ADC1->SQR3 = adc_channels[i];
+      |                                                                  ^~
+../Drivers/Src/adc_drive.c(234): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  234 |                                         ADC1->SQR3 = adc_channels[i];
+      |                                                                  ^~
+../Drivers/Src/adc_drive.c(248): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  248 |                                 analog_rx[i] = temp_rx ;
+      |                                          ^~
+../Drivers/Src/adc_drive.c(253): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  253 |                                 ADC2->SQR3 = adc_channels[i];
+      |                                                          ^~
+../Drivers/Src/adc_drive.c(258): warning: array subscript is of type 'char' [-Wchar-subscripts]
+  258 |                                 ADC2->SQR3 = adc_channels[i];
+      |                                                          ^~
+14 warnings generated.
+compiling adc_drive.c...
+../Drivers/Src/gp_drive.c(38): warning: variable 'CR' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+   38 |         else if(PORT == 3)
+      |                 ^~~~~~~~~
+../Drivers/Src/gp_drive.c(44): note: uninitialized use occurs here
+   44 |         *CR &= ~(0xf<<(tPin)*4);
+      |          ^~
+../Drivers/Src/gp_drive.c(38): note: remove the 'if' if its condition is always true
+   38 |         else if(PORT == 3)
+      |              ^~~~~~~~~~~~~
+   39 |                 {
+../Drivers/Src/gp_drive.c(16): note: initialize the variable 'CR' to silence this warning
+   16 |         volatile unsigned long * CR;
+      |                                    ^
+      |                                     = 0
+../Drivers/Src/gp_drive.c(62): warning: variable 'IDR' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+   62 |         else if(PORT == 3)
+      |                 ^~~~~~~~~
+../Drivers/Src/gp_drive.c(66): note: uninitialized use occurs here
+   66 |                 state =  ((*IDR & (1<<pin))>>pin)  ;
+      |                             ^~~
+../Drivers/Src/gp_drive.c(62): note: remove the 'if' if its condition is always true
+   62 |         else if(PORT == 3)
+      |              ^~~~~~~~~~~~~
+   63 |                 {
+../Drivers/Src/gp_drive.c(50): note: initialize the variable 'IDR' to silence this warning
+   50 |         volatile unsigned long * IDR;
+      |                                     ^
+      |                                      = 0
+2 warnings generated.
+compiling gp_drive.c...
+compiling main.c...
+compiling lcd16x2.c...
+compiling uart_drive.c...
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=2074 RO-data=258 RW-data=0 ZI-data=1632  
+FromELF: creating hex file...
+".\Objects\stm32f103xx_sample.axf" - 0 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103C8
+  ./RTE/_Target_1
+  C:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Keil::Device:Startup@1.0.0
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/system_stm32f10x.c
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

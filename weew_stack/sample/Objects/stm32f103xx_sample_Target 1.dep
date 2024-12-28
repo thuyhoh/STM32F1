@@ -1,0 +1,97 @@
+Dependencies for Project 'stm32f103xx_sample', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x671BB7AD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MMD)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+I (..\Drivers\Inc\systick_time.h)(0x66E2517F)
+I (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)
+I (..\Drivers\Inc\SPI_drive.h)(0x66E2517F)
+F (.\main.h)(0x66FE0861)()
+F (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)()
+F (..\Drivers\Inc\uart_drive.h)(0x66E2517F)()
+F (..\Drivers\Inc\SPI_drive.h)(0x66E2517F)()
+F (..\Drivers\Inc\i2c_drive.h)(0x66E2517F)()
+F (..\Drivers\Inc\adc_drive.h)(0x66E53B33)()
+F (..\Drivers\Inc\timer_drive.h)(0x66E2517F)()
+F (..\Drivers\Inc\systick_time.h)(0x66E2517F)()
+F (..\Drivers\Src\gp_drive.c)(0x66FAB9E6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/gp_drive.o -MMD)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+I (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)
+F (..\Drivers\Src\uart_drive.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/uart_drive.o -MMD)
+I (..\Drivers\Inc\uart_drive.h)(0x66E2517F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+I (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)
+I (..\Drivers\Inc\systick_time.h)(0x66E2517F)
+F (..\Drivers\Src\SPI_drive.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/spi_drive.o -MMD)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+I (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)
+I (..\Drivers\Inc\SPI_drive.h)(0x66E2517F)
+F (..\Drivers\Src\i2c_drive.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/i2c_drive.o -MMD)
+I (..\Drivers\Inc\i2c_drive.h)(0x66E2517F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+I (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)
+F (..\Drivers\Src\adc_drive.c)(0x66E53B31)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/adc_drive.o -MMD)
+I (..\Drivers\Inc\adc_drive.h)(0x66E53B33)
+I (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+I (..\Drivers\Inc\systick_time.h)(0x66E2517F)
+F (..\Drivers\Src\timer_drive.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/timer_drive.o -MMD)
+I (..\Drivers\Inc\timer_drive.h)(0x66E2517F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+I (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)
+F (..\Drivers\Src\systick_time.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/systick_time.o -MMD)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+I (..\Drivers\Inc\systick_time.h)(0x66E2517F)
+F (..\Devices\lcd16x2.c)(0x66FB63A3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/lcd16x2.o -MMD)
+I (..\Devices\lcd16x2.h)(0x66FB62A7)
+I (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)
+I (..\Drivers\Inc\systick_time.h)(0x66E2517F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+I (..\Devices\PCF8574.h)(0x66FB60F4)
+I (..\Drivers\Inc\i2c_drive.h)(0x66E2517F)
+F (..\Devices\lcd16x2.h)(0x66FB62A7)()
+F (..\Devices\PCF8574.c)(0x66FB63A5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/pcf8574.o -MMD)
+I (..\Devices\PCF8574.h)(0x66FB60F4)
+I (..\Drivers\Inc\gp_drive.h)(0x66FAB9EE)
+I (..\Drivers\Inc\i2c_drive.h)(0x66E2517F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
+F (..\Devices\PCF8574.h)(0x66FB60F4)()
+F (..\Devices\Esp01.h)(0x66FE07A5)()
+F (..\Devices\Esp01.c)(0x66FE07C0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/esp01.o -MMD)
+I (..\Devices\Esp01.h)(0x66FE07A5)
+F (RTE/Device/STM32F103C8/RTE_Device.h)(0x66E2517F)()
+F (RTE/Device/STM32F103C8/startup_stm32f10x_md.s)(0x66E2517F)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE/Device/STM32F103C8/system_stm32f10x.c)(0x66E2517F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Inc -I ../Devices-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Asus/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Asus/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MMD)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66E25CDD)
+I (RTE\_Target_1\RTE_Components.h)(0x66E1B67F)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664CAB78)
+I (C:\Users\Asus\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66E25CDD)
